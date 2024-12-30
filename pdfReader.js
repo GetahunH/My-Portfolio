@@ -3,7 +3,7 @@ const pdfViewer=document.getElementById('pdfViewer');
 
 pdfButton.addEventListener('click',
   function(){
-    window.open('GHMyCv.PDF');
+    window.open('GHMyCv.pdf');
   }
 );
 
