@@ -16,6 +16,20 @@ h1{
     color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+
+h3 {
+    text-align: justify; /* Distribute text evenly between margins */
+    font-size: 1.2rem;   /* Adjust font size */
+    line-height: 1.6;    /* Improve readability */
+    margin: 10px 0;      /* Add spacing around the heading */
+    font-weight: normal; /* Adjust font weight if needed */
+}
+.hello{
+    display: flex;            /* Use flexbox for layout */
+    align-items: center;      /* Align items vertically */
+    gap: 30px; 
+}
+
 #toShadow{
     color: coral;
     font-size: 30px;
@@ -122,6 +136,7 @@ h1{
 } 
 .logo{
     padding: 0 5rem;
+
 }
   
 .logo .logo-heading { 
@@ -191,9 +206,10 @@ h1{
 }
 .headings{
     padding: 0.5rem;
+    margin-top: 5rem;
 }
 .headings h1, 
-.headings h3, 
+/* .headings h3,  */
 .headings h4 {
   margin: 0; /* Remove all default margins */
 }
